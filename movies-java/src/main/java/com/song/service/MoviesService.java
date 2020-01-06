@@ -42,7 +42,7 @@ public class MoviesService {
 
     public List getMoviesResource(String name) {
         try {
-            String URL = "http://www.yongjiuzy1.com/index.php?m=vod-search";
+            String URL = "http://www.yongjiuzy2.com/index.php?m=vod-search";
             Connection connect = Jsoup.connect(URL);
             connect.data("wd", name);
 
